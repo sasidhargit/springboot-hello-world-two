@@ -29,7 +29,7 @@ jobs:
           -Dsonar.projectKey=sasidhargit_springboot-hello-world
           -Dsonar.organization=sasidhargitorg
           -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.login=${{ secrets.SONAR_TOKEN_ONE }}
+          -Dsonar.login=${{ secrets.SONAR_TOKEN }}
 
     - name: Login to GHCR
       uses: docker/login-action@v2
